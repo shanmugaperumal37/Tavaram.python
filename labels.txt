@@ -1,0 +1,6 @@
+0 Basil Plant - Powdery Mildew
+1 Basil Plant - Red Bug Disease
+2 Basil Plant - Root rot
+3 Rose Plant - Powdery Mildew
+4 Rose Plant - Aphids
+5 Rose Plant - Downy Mildew
