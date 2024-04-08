@@ -1,0 +1,12 @@
+C:\Users\SHANKARA\PycharmProjects\pythonProject\aa.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\ab.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\ac.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\ad.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\ba.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\bb.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\bc.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\bd.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\keras_model.h5
+C:\Users\SHANKARA\PycharmProjects\pythonProject\labels.txt
+C:\Users\SHANKARA\PycharmProjects\pythonProject\users.json
+C:\Users\SHANKARA\PycharmProjects\pythonProject\_pywrap_tensorflow_internal.pyd

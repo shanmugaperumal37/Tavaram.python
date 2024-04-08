@@ -4,3 +4,5 @@
 3 Rose Plant - Powdery Mildew
 4 Rose Plant - Aphids
 5 Rose Plant - Downy Mildew
+6 Healthy Rose Plant
+7 Healthy Basil Plant

@@ -1,2 +1,0 @@
-# TAVARAM
- MPID
