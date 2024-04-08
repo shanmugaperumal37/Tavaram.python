@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    // Specify the Kotlin version
+    extensions["kotlin_version"] = "1.6.10"
+
+    repositories {
+
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        google()
+    }
+    dependencies {
+        // Add the Android Gradle plugin with a version number
+        classpath("com.android.tools.build:gradle:7.0.4")
+        // Add the Kotlin Gradle plugin with the same version as Kotlin
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
+    }
+}
+plugins {
+    id 'base'
+    id 'java'
+}
+
+allprojects {
+    repositories {
+
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        google()
+    }
+}
+
