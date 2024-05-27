@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import json
 import os
-from colorama import Fore, Back, init
+
 current_dir = os.path.dirname(os.path.abspath(__file__))
 tamil_font = ("Latha (1).ttf", 12)
 primary_color = "#007f4f"
@@ -15,7 +15,7 @@ def aae():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
     aa_win.title("Basil Plant - Powdery Mildew")
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     aa_path = os.path.join(current_dir, 'aae.txt')
     aaf = open(aa_path, 'r')
     aad = aaf.read()
@@ -36,7 +36,7 @@ def aat():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
     aa_win.title("துளசி செடிகளில் நுண்துகள் பூஞ்சை காளான்")
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     aat = tk.Text(aa_win, bg=bgcolor, fg=secondary_color, font=tamil_font)
     aat.pack(pady=20)
     aat.insert("insert","துளசி செடிகளில் நுண்துகள் பூஞ்சை காளான்.  காரணம்: துளசி பூஞ்சை காளான் ஒரு பூஞ்சை நோய்க்கிருமியால் ஏற்படுகிறது.  இது ஆரம்பத்தில் இலைகளின் அடிப்பகுதியில் சிறிய சாம்பல் நிற புள்ளிகளாகத் தோன்றி, கீழ் இலை மேற்பரப்பின் பெரிய பகுதிகளை மறைப்பதற்கு முன்னேறும்.  பூஞ்சை இலையின் மேற்பரப்பிலிருந்து எழும்பி அல்லது பஞ்சுபோன்ற தோற்றத்தில் தோன்றலாம்.  சிகிச்சை: பேக்கிங் சோடா நுண்துகள் பூஞ்சை காளான் சிகிச்சைக்கான சிறந்த வீட்டு வைத்தியம் ஆகும்.ந்த முறைக்கு, 1 கேலன் தண்ணீரில் 1x 1 தேக்கரண்டி பேக்கிங் சோடா மற்றும் ½ தேக்கரண்டி திரவ சோப்பு.  அதை ஒரு ஸ்ப்ரே பாட்டிலில் மாற்றி, இலைகளின் மேல் மற்றும் அடிப்பகுதி மற்றும் பாதிக்கப்பட்ட பகுதிகளில் தெளிக்கவும்.")
@@ -45,7 +45,7 @@ def aat():
 def abe():
     ab_win = tk.Tk()
     ab_win.configure(bg=bgcolor)
-    ab_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ab_win.iconbitmap('Tavaram.ico')
     ab_win.title("Basil Plant - Red Bug Disease")
     ab_path = os.path.join(current_dir, 'abe.txt')
     abf = open(ab_path, 'r')
@@ -58,7 +58,7 @@ def abe():
 def abt():
     ab_win = tk.Tk()
     ab_win.configure(bg=bgcolor)
-    ab_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ab_win.iconbitmap('Tavaram.ico')
     ab_win.title("துளசி செடியில் சிவப்பு பூச்சி நோய்")
     abt = tk.Text(ab_win, fg=secondary_color, bg=bgcolor, font=tamil_font)
     abt.pack(pady=20)
@@ -68,7 +68,7 @@ def abt():
 def ace():
     ac_win = tk.Tk()
     ac_win.configure(bg=bgcolor)
-    ac_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ac_win.iconbitmap('Tavaram.ico')
     ac_win.title("Basil Plant - Root rot")
     ac_path = os.path.join(current_dir, 'ace.txt')
     acf = open(ac_path, 'r')
@@ -81,7 +81,7 @@ def ace():
 def act():
     ac_win = tk.Tk()
     ac_win.configure(bg=bgcolor)
-    ac_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ac_win.iconbitmap('Tavaram.ico')
     ac_win.title("துளசி செடியில் வேர் அழுகல் நோய்")
     act = tk.Text(ac_win, fg=secondary_color, bg=bgcolor, font=tamil_font)
     act.pack(pady=20)
@@ -91,7 +91,7 @@ def act():
 def bae():
     ba_win = tk.Tk()
     ba_win.configure(bg=bgcolor)
-    ba_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ba_win.iconbitmap('Tavaram.ico')
     ba_win.title("Rose Plant - Powdery Mildew")
     ba_path = os.path.join(current_dir, 'bae.txt')
     baf = open(ba_path, 'r')
@@ -104,7 +104,7 @@ def bae():
 def bat():
     ba_win = tk.Tk()
     ba_win.configure(bg=bgcolor)
-    ba_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ba_win.iconbitmap('Tavaram.ico')
     ba_win.title("ரோஜா செடியில் பூஞ்சை காளான்")
     bat = tk.Text(ba_win, fg=secondary_color, bg=bgcolor, font=tamil_font)
     bat.pack(pady=20)
@@ -114,7 +114,7 @@ def bat():
 def bbe():
     bb_win = tk.Tk()
     bb_win.configure(bg=bgcolor)
-    bb_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    bb_win.iconbitmap('Tavaram.ico')
     bb_win.title("Rose Plant - Aphids")
     bb_path = os.path.join(current_dir, 'bbe.txt')
     bbf = open(bb_path, 'r')
@@ -127,7 +127,7 @@ def bbe():
 def bbt():
     bb_win = tk.Tk()
     bb_win.configure(bg=bgcolor)
-    bb_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    bb_win.iconbitmap('Tavaram.ico')
     bb_win.title("ரோஜா செடியில் அஃபிட்ஸ்")
     bbt = tk.Text(bb_win, fg=secondary_color, bg=bgcolor, font=tamil_font)
     bbt.pack(pady=20)
@@ -137,7 +137,7 @@ def bbt():
 def bce():
     bc_win = tk.Tk()
     bc_win.configure(bg=bgcolor)
-    bc_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    bc_win.iconbitmap('Tavaram.ico')
     bc_win.title("Rose Plant - Downey Mildew")
     bc_path = os.path.join(current_dir, 'bce.txt')
     bcf = open(bc_path, 'r')
@@ -150,7 +150,7 @@ def bce():
 def bct():
     bc_win = tk.Tk()
     bc_win.configure(bg=bgcolor)
-    bc_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    bc_win.iconbitmap('Tavaram.ico')
     bc_win.title("ரோஜா செடிகளில் டவுனி பூஞ்சை காளான்")
     bct = tk.Text(bc_win, bg=bgcolor, fg=secondary_color, font=tamil_font)
     bct.pack(pady=20)
@@ -160,7 +160,7 @@ def bct():
 def bde():
     bd_win = tk.Tk()
     bd_win.configure(bg=bgcolor)
-    bd_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    bd_win.iconbitmap('Tavaram.ico')
     bd_win.title("Plant Looks Healthy")
     bd_path = os.path.join(current_dir, 'bde.txt')
     bdf = open(bd_path, 'r')
@@ -173,7 +173,7 @@ def bde():
 def bdt():
     bd_win = tk.Tk()
     bd_win.configure(bg=bgcolor)
-    bd_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    bd_win.iconbitmap('Tavaram.ico')
     bd_win.title("தாவரம் ஆரோக்கியமாக தெரிகிறது")
     bdt = tk.Text(bd_win, bg=bgcolor, fg=secondary_color, font=tamil_font)
     bdt.pack(pady=20)
@@ -183,7 +183,7 @@ def bdt():
 def ade():
     ad_win = tk.Tk()
     ad_win.configure(bg=bgcolor)
-    ad_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ad_win.iconbitmap('Tavaram.ico')
     ad_win.title("Plant Looks Healthy")
     ad_path = os.path.join(current_dir, 'ade.txt')
     adf = open(ad_path, 'r')
@@ -196,7 +196,7 @@ def ade():
 def adt():
     ad_win = tk.Tk()
     ad_win.configure(bg=bgcolor)
-    ad_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    ad_win.iconbitmap('Tavaram.ico')
     ad_win.title("தாவரம் ஆரோக்கியமாக தெரிகிறது")
     adt = tk.Text(ad_win, bg=bgcolor, fg=secondary_color, font=tamil_font)
     adt.pack(pady=20)
@@ -207,7 +207,7 @@ def aa():
 
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     aaeb = tk.Button(aa_win, text="English", command=aae, bg=bgcolor, fg=secondary_color)
     aatb = tk.Button(aa_win, text="Tamil", command=aat, bg=bgcolor, fg=primary_color)
     aaeb.pack()
@@ -217,7 +217,7 @@ def aa():
 def ab():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     abeb = tk.Button(aa_win, text="English", command=abe, bg=bgcolor, fg=secondary_color)
     abtb = tk.Button(aa_win, text="Tamil", command=abt, bg=bgcolor, fg=primary_color)
     abeb.pack()
@@ -227,7 +227,7 @@ def ab():
 def ac():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     abeb = tk.Button(aa_win, text="English", command=ace, bg=bgcolor, fg=secondary_color)
     abtb = tk.Button(aa_win, text="Tamil", command=act, bg=bgcolor, fg=primary_color)
     abeb.pack()
@@ -237,7 +237,7 @@ def ac():
 def ba():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     abeb = tk.Button(aa_win, text="English", command=bae, bg=bgcolor, fg=secondary_color)
     abtb = tk.Button(aa_win, text="Tamil", command=bat, bg=bgcolor, fg=primary_color)
     abeb.pack()
@@ -247,7 +247,7 @@ def ba():
 def bb():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     abeb = tk.Button(aa_win, text="English", command=bbe, bg=bgcolor, fg=secondary_color)
     abtb = tk.Button(aa_win, text="Tamil", command=bbt, bg=bgcolor, fg=primary_color)
     abeb.pack()
@@ -257,7 +257,7 @@ def bb():
 def bc():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     abeb = tk.Button(aa_win, text="English", command=bce, bg=bgcolor, fg=secondary_color)
     abtb = tk.Button(aa_win, text="Tamil", command=bct, bg=bgcolor, fg=primary_color)
     abeb.pack()
@@ -267,7 +267,7 @@ def bc():
 def bd():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     abeb = tk.Button(aa_win, text="English", command=bde, bg=bgcolor, fg=secondary_color)
     abtb = tk.Button(aa_win, text="Tamil", command=bdt, bg=bgcolor, fg=primary_color)
     abeb.pack()
@@ -277,7 +277,7 @@ def bd():
 def ad():
     aa_win = tk.Tk()
     aa_win.configure(bg=bgcolor)
-    aa_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    aa_win.iconbitmap('Tavaram.ico')
     abeb = tk.Button(aa_win, text="English", command=ade, bg=bgcolor, fg=secondary_color)
     abtb = tk.Button(aa_win, text="Tamil", command=adt, bg=bgcolor, fg=primary_color)
     abeb.pack()
@@ -326,7 +326,7 @@ def main():
     main_win = tk.Tk()
     main_win.title("Analysis and Diagnosis")
     main_win.configure(bg=bgcolor)
-    main_win.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+    main_win.iconbitmap('Tavaram.ico')
     path_label = tk.Label(main_win, text="Enter Image path:", bg=bgcolor, fg=secondary_color)
     path_label.pack()
     path_entry = tk.Entry(main_win, bg='black', fg='white')
@@ -405,19 +405,9 @@ except FileNotFoundError:
 
 window = tk.Tk()
 window.configure(bg=bgcolor)
-window.iconbitmap('C:\\Users\\SHANKARA\\python\\python 3.10.4\\pythonProject\\Tavaram.ico')
+window.iconbitmap('Tavaram.ico')
 window.title("Login/Signup System")
-init()
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "Tavaram                                            ")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "Version: 1.0                                       ")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "Machine Learning Equipped Plant Illness Detector   ")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "This app is entirely made out of python programming")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "Copyright:")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "Tavaram AI Tech Private Limited.")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "Thanks for Installing.")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "For Now Available for:")
-print(Back.LIGHTMAGENTA_EX + Fore.GREEN + "Rose and Basil Plants")
-# Create username label and entry
+
 username_label = tk.Label(window, text="Username:", bg=bgcolor, fg=primary_color)
 username_label.pack()
 username_entry = tk.Entry(window, bg='black', fg='white')
