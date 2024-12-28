@@ -1,0 +1,73 @@
+import tkinter as tk
+from tkinter import messagebox
+
+class TransitApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Transit Seat Vigilance & Crowd Monitor")
+
+        # Set up the dimensions of the window to simulate a phone size
+        self.root.geometry("300x500")
+
+        # Create and pack widgets
+        self.create_widgets()
+
+    def create_widgets(self):
+        # App name with blue background
+        self.title_label = tk.Label(self.root, text="Transit Seat Vigilance & Crowd Monitor", font=("Arial", 14), bg="blue", fg="white", wraplength=250)
+        self.title_label.pack(pady=20, fill=tk.X)
+
+        # Description
+        self.description_label = tk.Label(self.root, text="Welcome to our app. Login or sign up to start.", font=("Arial", 12), wraplength=250)
+        self.description_label.pack(pady=10)
+
+        # NEXT button with blue background
+        self.next_button = tk.Button(self.root, text="NEXT", command=self.next_button_click, bg="blue", fg="white")
+        self.next_button.pack(pady=20)
+
+    def next_button_click(self):
+        # Action for NEXT button click - open a new window with login and sign-up
+        self.new_window = tk.Toplevel(self.root)
+        self.new_window.title("Login and Sign Up")
+        self.new_window.geometry("300x500")
+
+        # Create and pack widgets in the new window
+        self.create_login_signup_widgets()
+
+    def create_login_signup_widgets(self):
+        # Username label and entry
+        self.username_label = tk.Label(self.new_window, text="Username", font=("Arial", 12))
+        self.username_label.pack(pady=10)
+        self.username_entry = tk.Entry(self.new_window, font=("Arial", 12))
+        self.username_entry.pack(pady=5)
+
+        # Password label and entry
+        self.password_label = tk.Label(self.new_window, text="Password", font=("Arial", 12))
+        self.password_label.pack(pady=10)
+        self.password_entry = tk.Entry(self.new_window, show='*', font=("Arial", 12))
+        self.password_entry.pack(pady=5)
+
+        # Login button with blue background
+        self.login_button = tk.Button(self.new_window, text="Login", command=self.login, bg="blue", fg="white")
+        self.login_button.pack(pady=20)
+
+        # Sign Up button with blue background
+        self.signup_button = tk.Button(self.new_window, text="Sign Up", command=self.signup, bg="blue", fg="white")
+        self.signup_button.pack(pady=10)
+
+    def login(self):
+        username = self.username_entry.get()
+        password = self.password_entry.get()
+        # Here you can add logic to handle login
+        messagebox.showinfo("Login", f"Username: {username}\nPassword: {password}")
+
+    def signup(self):
+        username = self.username_entry.get()
+        password = self.password_entry.get()
+        # Here you can add logic to handle sign-up
+        messagebox.showinfo("Sign Up", f"Username: {username}\nPassword: {password}")
+
+# Create the main window
+root = tk.Tk()
+app = TransitApp(root)
+root.mainloop()

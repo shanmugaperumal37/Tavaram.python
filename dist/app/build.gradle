@@ -1,0 +1,54 @@
+// Apply the Kotlin Android plugin
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+
+// Configure the Android application
+android {
+    compileSdk = 33
+
+    defaultConfig {
+        applicationId = "com.example.cameraxapp"
+        minSdk = 21
+        targetSdk = 33
+        versionCode = 1
+        versionName = "1.0"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }}
+
+
+
+// Add the dependencies for your app
+dependencies {
+
+
+
+
+
+    
+    implementation "org.gradle:gradle-incremental-task-api:0.1.0"
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.10}")
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.camera:camera-camera2:1.1.0")
+    implementation("androidx.camera:camera-lifecycle:1.1.0")
+    implementation("androidx.camera:camera-view:1.1.0")
+
+    implementation("com.google.mlkit:image-labeling:17.0.7")
+}
